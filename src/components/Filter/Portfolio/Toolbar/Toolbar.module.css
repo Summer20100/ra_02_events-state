@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center
+}
+
+.containerBtn {
+  display: flex;
+  justify-content: center
+}
+
+.label {
+  background: #dbdbdb;
+  margin: 15px;
+  border: 2px solid #333;
+  font-weight: 400;
+
+  color: #333;
+  cursor: pointer;
+  transition: all .3s ease;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.label:hover {
+  background: #aaaaaa;
+  transition: all .3s ease;
+  font-weight: 400;
+}
+
+.radio:checked+.label {
+  background: #333;
+  color: #fff;
+  font-weight: 400;
+}
+
+.radio {
+  display: none
+}
+
+.containerBtn label:first-child {
+  background-color: #286C2D;
+}
